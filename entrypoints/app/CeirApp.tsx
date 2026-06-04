@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { useCeirChecker } from './useCeirChecker';
+// WXT ရဲ့ Root Path (@/) စနစ်ကို သုံးပြီး စာလုံးအကြီးအသေးကြောင့် Module Not Found ဖြစ်တဲ့ Error ကို အပြီးတိုင်ရှင်းလင်းခြင်း
+import { useCeirChecker } from '@/entrypoints/useCeirChecker';
 
 export default function CeirApp() {
   const [imeiInput, setImeiInput] = useState('');
@@ -24,7 +25,7 @@ export default function CeirApp() {
       {/* Glassmorphism Container Card */}
       <div className="w-full max-w-md bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 shadow-2xl space-y-6">
         
-        {/* Header - Branding ပြောင်းလဲထားခြင်း */}
+        {/* Header - Branding ပြောင်းလဲထားခြင်း (GitHub လင့်ခ်များ လုံးဝ ဖြုတ်ထားပါသည်) */}
         <div className="text-center space-y-2">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
