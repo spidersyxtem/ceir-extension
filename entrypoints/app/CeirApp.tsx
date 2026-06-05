@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// WXT Alias Path ကို သုံးပြီး ဖိုဒါအဆင့်ဆင့်ပြဿနာနှင့် စာလုံးအကြီးအသေး Error ကို အပြတ်ရှင်းခြင်း
-import { useCeirChecker } from '../../useCeirChecker';
+// ဖိုဒါတစ်ခုတည်းထဲတွင် ကပ်လျက်ရှိသော useCeirChecker ഫိုင်လမ်းကြောင်းကို အမှန်ကန်ဆုံး ချိတ်ဆက်ထားခြင်း
+import { useCeirChecker } from './useCeirChecker';
 
 export default function CeirApp() {
   const [imeiInput, setImeiInput] = useState('');
