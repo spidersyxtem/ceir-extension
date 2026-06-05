@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// ဖိုဒါတစ်ခုတည်းထဲတွင် ကပ်လျက်ရှိသော useCeirChecker ഫိုင်လမ်းကြောင်းကို အမှန်ကန်ဆုံး ချိတ်ဆက်ထားခြင်း
+// စာလုံးအကြီးအသေး Case Sensitivity ပြဿနာကို ဖြေရှင်းရန် "C အကြီး" အမှန်အတိုင်း ပြောင်းလဲထားခြင်း
 import { useCeirChecker } from './useCeirChecker';
 
 export default function CeirApp() {
