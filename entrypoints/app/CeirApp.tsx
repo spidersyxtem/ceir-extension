@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-// WXT ရဲ့ Root Path (@/) စနစ်ကို သုံးပြီး စာလုံးအကြီးအသေးကြောင့် Module Not Found ဖြစ်တဲ့ Error ကို အပြီးတိုင်ရှင်းလင်းခြင်း
-import { useCeirChecker } from '@/entrypoints/useCeirChecker';
+import { useCeirChecker } from './useCeirChecker';
 
 export default function CeirApp() {
   const [imeiInput, setImeiInput] = useState('');
